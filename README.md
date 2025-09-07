@@ -39,12 +39,14 @@
 
 ### 분석 결과
 1. 모든 변수 포함
+   
 | Metric    | DecisionTree | DecisionTree (max_depth=4) | RandomForest |
 |:---------:|:------------:|:--------------------------:|:------------:|
 | Accuracy  | 0.9879       | 0.9876                     | 0.9927       |
 | F1-score  | 0.8618       | 0.8406                     | 0.9130       |
 
 2. Tryshot_signal(Nan,D) & heating_furnace(Nan,A,B)
+   
 |                  | heating_furnace (A) | heating_furnace (B) | heating_furnace (NaN) |
 |:----------------:|:-------------------:|:-------------------:|:---------------------:|
 | Tryshot_signal (NaN) | 0.9633              | 0.9406              | 0.8853                |
